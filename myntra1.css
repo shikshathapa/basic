@@ -1,0 +1,150 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  z-index: 1;
+
+}
+
+.section1 img {
+  margin-top: 15px;
+  float: left;
+  position: sticky;
+}
+
+.navbar {
+  margin-left: 40px;
+  position: sticky;
+  /* position: relative; */
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  /* padding: 10px 12px; */
+  text-decoration: none;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index: -1;
+  /* position: sticky; */
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 900px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  /* padding: 12px 16px; */
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#dropdown1 {
+  min-width: 16%;
+}
+
+#dropdown2 {
+  min-width: 55%;
+  min-height: 70%;
+}
+
+.button {
+  background-color: transparent;
+  color: palevioletred;
+}
+
+.fa-heart {
+  margin-top: 35px;
+  margin-left: -9px;
+}
+
+.fa-bag-shopping {
+  margin-left: 9px;
+}
+
+.one {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mySlides {
+  display: none;
+  z-index: -1;
+  margin-left: -20px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 52px;
+}
+
+.item2 {
+  margin-left: 100px;
+}
+
+.item3 {
+  margin-left: 100px;
+}
+
+#dropdown3 {
+  min-width: 30%;
+}
+
+
+.vl {
+  border: 3px solid grey;
+  height: 50px;
+  width: 350px;
+  margin-top: 60px;
+  /* margin-right: -80px; */
+  /* float: right; */
+  /* position: sticky; */
+text-align: center;
+margin-left: 450px;
+background-color: gray;
+color: white; 
+transition: all ease-in-out 2s;
+}
+.vl:hover{
+  transform: scale(1.2);
+}
+
+.container-fluid img{
+  transition: all ease-in-out 2s;
+}
+.container-fluid img:hover{
+  transform: scale(1.1);
+  /* border-radius: 30px; */
+}
